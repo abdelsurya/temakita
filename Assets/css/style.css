@@ -1,0 +1,225 @@
+body,
+html {
+  font-family: "Overpass", sans-serif !important;
+  height: 100%;
+  margin: 0;
+}
+
+/* NAVBAR AWAL */
+
+.navbar-bg {
+  background-color: #07455e;
+  height: 100px;
+}
+
+.nav-text-1 {
+  font-size: 40px !important;
+  color: #e09341 !important;
+}
+.nav-text-2 {
+  color: #ede6dc !important;
+  font-size: 20px !important;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-text-3 {
+  color: #ede6dc !important;
+}
+
+.nav-text-2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ede6dc;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-text-2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.dropdown-text:hover {
+  background-color: #e09341 !important;
+  transition: 0.75s;
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -ms-transition: 0.75s;
+  -o-transition: 0.75s;
+}
+
+/* NAVBAR AKHIR */
+
+/* JUMBOTRON AWAL */
+
+.container-1 {
+  position: relative;
+  text-align: left;
+  color: #e09341;
+  text-shadow: #ede6dc;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.jumbotron-text {
+  font-size: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron-text {
+    font-size: 50px;
+  }
+}
+
+.btn-slide {
+  color: #ede6dc;
+  border: 2px solid #e09341;
+  border-radius: 0px;
+  padding: 18px 36px;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 0 #e09341;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  -ms-transition: ease-out 0.4s;
+  -o-transition: ease-out 0.4s;
+}
+
+.slide-right:hover {
+  box-shadow: inset 400px 0 0 0 #e09341;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* JUMBOTRON AKHIR */
+
+/* WHO WE ARE AWAL */
+
+.bg-umkm {
+  background-color: #07455e;
+  width: 100vw;
+}
+
+.who-text-1 {
+  font-size: 50px;
+  color: #e09341;
+}
+
+.who-text-2 {
+  color: #ede6dc;
+}
+
+/* WHO WE ARE AKHIR */
+
+/* LAYANAN AWAL */
+
+.bg-lay {
+  background-color: #ede6dc;
+}
+
+.icon {
+  color: #07455e;
+}
+
+.judul {
+  color: #e09341 !important;
+}
+
+.btn-layanan {
+  background-color: #07455e !important;
+  color: #ede6dc !important;
+}
+
+.btn-layanan:hover {
+  box-shadow: inset 120px 0 0 0 #e09341;
+}
+
+.card-footer {
+  background-color: white !important;
+}
+
+/* LAYANAN AKHIR */
+
+/* MENGAPA KAMI AWAL */
+
+.bg-why {
+  background-color: #ede6dc;
+}
+
+/* MENGAPA KAMI AKHIR */
+
+/* KLIEN AWAL */
+
+.text-klien {
+  color: #ede6dc;
+}
+
+.bg-klien {
+  background-color: #07455e;
+}
+
+/* KLIEN AKHIR */
+
+/* REKAN AWAL */
+
+.bg-rekan {
+  background-color: #ede6dc;
+}
+
+.text-rekan {
+  color: #07455e;
+}
+
+/* REKAN AKHIR */
+
+/* AJAKAN AWAL */
+
+.text-ajakan {
+  font-size: 50px;
+  color: #07455e;
+}
+
+.btn-slide-2 {
+  color: #07455e;
+  border: 2px solid #07455e;
+  border-radius: 0px;
+  padding: 18px 36px;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 0 #e09341;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  -ms-transition: ease-out 0.4s;
+  -o-transition: ease-out 0.4s;
+}
+
+.slide-right-2:hover {
+  box-shadow: inset 400px 0 0 0 #e09341;
+}
+
+/* AJAKAN AKHIR */
+
+/* footer awal */
+
+.bg-footer {
+  background-color: #07455e;
+}
+
+.text-footer {
+  color: #ede6dc;
+  font-size: 12.5px;
+}
+
+/* footer akhir */
