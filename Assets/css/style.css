@@ -46,6 +46,10 @@ html {
   transform-origin: bottom left;
 }
 
+.dropdown-text {
+  color: #ede6dc !important;
+}
+
 .dropdown-text:hover {
   background-color: #e09341 !important;
   transition: 0.75s;
@@ -53,6 +57,10 @@ html {
   -moz-transition: 0.75s;
   -ms-transition: 0.75s;
   -o-transition: 0.75s;
+}
+
+.dropdown-menu {
+  background-color: #07455e !important;
 }
 
 /* NAVBAR AKHIR */
