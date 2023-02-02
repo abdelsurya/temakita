@@ -118,7 +118,6 @@ a {
 
 .bg-umkm {
   background-color: #07455e;
-  width: 100vw;
 }
 
 .who-text-1 {
@@ -232,3 +231,20 @@ a {
 }
 
 /* footer akhir */
+
+/* release awal */
+
+.bg-release {
+  background-color: #ede6dc;
+  padding-top: 100px;
+}
+
+/* release akhir */
+
+/* KENAPA RELEASE AWAL */
+
+.bg-why-release {
+  background-color: #ede6dc;
+}
+
+/* KENAPA RELEASE AKHIR */
