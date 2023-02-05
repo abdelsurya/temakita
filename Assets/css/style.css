@@ -247,4 +247,71 @@ a {
   background-color: #ede6dc;
 }
 
+.bi-share {
+  font-size: 100px;
+  color: #e09341;
+}
+
+.bi-graph-up-arrow {
+  font-size: 100px;
+  color: #e09341;
+}
+
+.bi-wifi {
+  font-size: 100px;
+  color: #e09341;
+}
+
 /* KENAPA RELEASE AKHIR */
+
+/* MANFAAT RELEASE AWAL */
+
+.bg-manfaat-release {
+  background-color: #ede6dc;
+}
+
+.bi-1-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+.bi-2-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+.bi-3-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+.bi-4-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+.bi-5-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+.bi-6-circle {
+  font-size: 75px;
+  color: #e09341;
+}
+
+/* MANFAAT RELEASE AKHIR */
+
+/* KETENTUAN AWAL */
+
+.bg-ketentuan {
+  background-color: #ede6dc;
+}
+
+@media screen and (max-width: 960px) {
+  .img-ketentuan {
+    width: 100%;
+  }
+}
+
+/* KETENTUAN AKHIR */
